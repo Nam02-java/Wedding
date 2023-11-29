@@ -1,0 +1,70 @@
+//input[@id='captcha_input']   - nhap captcha
+
+//h4[normalize-space()='Error!']    - thong bao khi nhap sai captcha
+
+//*[@id="progessResults"]/div[2]/div/text()[1]  /html/body/section[2]/div[2]/form/div[2]/div[2]/div[1]/div[4]/div[2]/div/text()[1]
+- thong bao khi nhap sai captcha text
+
+
+
+
+
+
+//        List<WebElement> images = driver.findElements(By.xpath("//img"));
+//        for (WebElement image : images) {
+//            System.out.println(image.getAttribute("src"));
+//        }
+//
+//        System.out.println("--------------------------------------------------------");
+//        String[] imageURLtoBlock = {
+//                "https://ad.plus/adplus-advertising.svg",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//                "https://ttsfree.com/images/lang/us.jpg",
+//                "https://ttsfree.com/images/lang/au.jpg",
+//                "https://ttsfree.com/images/lang/fr.jpg",
+//                "https://ttsfree.com/images/lang/it.jpg",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//                "https://ttsfree.com/images/lang/kr.jpg",
+//                "https://ttsfree.com/images/lang/ru.jpg",
+//                "https://ttsfree.com/images/lang/jp.jpg",
+//                "https://ttsfree.com/images/lang/de.jpg",
+//                "https://ttsfree.com/images/lang/se.jpg",
+//                "https://ttsfree.com/images/lang/nl.jpg",
+//                "https://ttsfree.com/images/lang/my.jpg",
+//                "https://ttsfree.com/images/lang/id.jpg",
+//                "https://ttsfree.com/images/lang/pt.jpg",
+//                "https://ttsfree.com/images/lang/ph.jpg",
+//                "https://ttsfree.com/images/lang/bg.jpg",
+//                "https://ttsfree.com/images/lang/ch.jpg",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ads.stickyadstv.com/auto-user-sync?_fw_gdpr=0&_fw_gdpr_consent=",
+//                "https://ads.stickyadstv.com/user-matching?id=2545&_fw_gdpr=0&_fw_gdpr_consent=",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//                "https://ttsfree.com/images/Female.png",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//                "https://ttsfree.com/images/Male.png",
+//                "https://ttsfree.com/images/lang/vn.jpg",
+//        };
+//
+////        for (String imageUrl : imageURLtoBlock) {
+////            ((JavascriptExecutor) driver).executeScript("var images = document.getElementsByTagName('img'); for (var i = 0; i < images.length; i++) { if (images[i].src === '" + imageUrl + "') { images[i].style.display = 'none'; } }");
+////        }
+//
+//        List<WebElement> a = driver.findElements(By.xpath("//img"));
+//        for (WebElement image : a) {
+//            System.out.println(image.getAttribute("outerHTML"));
+//        }
